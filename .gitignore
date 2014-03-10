@@ -1,3 +1,4 @@
+# Ruby
 *.gem
 *.rbc
 .bundle
@@ -16,3 +17,24 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Jekyll
+_site/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
