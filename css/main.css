@@ -1,0 +1,19 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  height: 100%;
+}
+
+#header {
+  float: left;
+  height: 100%;
+  width: 40%;
+}

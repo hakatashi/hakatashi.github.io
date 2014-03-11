@@ -1,2 +1,6 @@
 encoding: utf-8
+name: 博多技研
+description: hakatashiのメモ帳
+url: http://hakatashi.github.io
 permalink: /:categories/:title/
+markdown: kramdown
