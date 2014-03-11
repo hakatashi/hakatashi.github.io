@@ -8,6 +8,10 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 #wrap {
   height: 100%;
 }
@@ -16,4 +20,57 @@ html, body {
   float: left;
   height: 100%;
   width: 40%;
+  position: relative;
+  background-image: url(/img/header/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+
+#header-wrap {
+  width: 100%;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  font-family: 'Times New Roman', Times, 'ü‡ñæí©ëÃ', 'YuMincho', 'ü‡ñæí©', 'Yu Mincho', 'ÉqÉâÉMÉmñæí© Pro', 'Hiragino Mincho Pro', 'ÉqÉâÉMÉmñæí© ProN', 'Hiragino Mincho ProN', 'IPAñæí©', 'IPAMincho', 'Meiryo', 'ÉÅÉCÉäÉI', serif;
+  font-weight: normal;
+  color: white;
+
+  mix-blend-mode: overlay;
+  -webkit-mix-blend-mode: overlay;
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
+}
+
+h1#site-title {
+  float: right;
+  margin: 0;
+  margin-before: 0;
+  -webkit-margin-before: 0;
+  margin-after: 0;
+  -webkit-margin-after: 0;
+
+  font-size: 96px;
+  font-weight: normal;
+  line-height: 1em;
+
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -epub-writing-mode: vertical-rl;
+}
+
+#site-title a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+#site-extra {
+  font-size: 16px;
+  display: block;
+  margin: 0;
+  position: absolute;
+  right: 102px;
+  bottom: 2px;
 }
