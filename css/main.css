@@ -3,25 +3,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html, body {
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  margin: 0;
+body {
+  font-family: Arial, Helvetica, 'Meiryo', 'ÉÅÉCÉäÉI', 'ÉqÉâÉMÉmäpÉS Pro','Hiragino Kaku Gothic Pro', 'ÉqÉâÉMÉmäpÉS ProN','Hiragino Kaku Gothic ProN', 'ü‡ÉSÉVÉbÉNëÃ', 'YuGothic', 'ü‡ÉSÉVÉbÉN', 'Yu Gothic', 'IPAÉSÉVÉbÉN', 'IPAGothic', serif;
+  font-size: 20px;
+  color: #444;
 }
 
 #wrap {
-  height: 100%;
+  height: auto;
 }
 
 #header {
   float: left;
   height: 100%;
   width: 40%;
-  position: relative;
-  background-image: url(/img/header/01.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(/img/header/02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
@@ -39,6 +43,8 @@ h1 {
 
   mix-blend-mode: overlay;
   -webkit-mix-blend-mode: overlay;
+  blend-mode: overlay;
+  -webkit-blend-mode: overlay;
   opacity: 0.5;
   -webkit-opacity: 0.5;
 }
@@ -73,4 +79,17 @@ h1#site-title {
   position: absolute;
   right: 102px;
   bottom: 2px;
+}
+
+#slider {
+  margin-left: 45%;
+  margin-right: 5%;
+  width: 50%;
+  margin-left: calc(40% + 50px);
+  margin-right: calc(50px);
+  width: calc(60% - 100px);
+  margin-left: -weblit-calc(40% + 50px);
+  margin-right: -weblit-calc(50px);
+  width: -weblit-calc(60% - 100px);
+  max-width: 800px;
 }
