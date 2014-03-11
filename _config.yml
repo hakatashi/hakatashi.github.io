@@ -3,4 +3,5 @@ name: 博多技研
 description: hakatashiのメモ帳
 url: http://hakatashi.github.io
 permalink: /:categories/:title/
+timezone: Asia/Tokyo
 markdown: kramdown

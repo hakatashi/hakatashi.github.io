@@ -3,8 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} - {{ site.name }}</title>
+        {% if page.excerpt %}
+        <meta name="description" content="{{page.excerpt}}">
+        {% else %}
+        <meta name="description" content="{{site.description}}">
+        {% endif %}
+        {% if page.categories %}
+        <meta name="keywords" content="{{page.categories | join: ','}}">
+        {% else %}
+        <meta name="keywords" content="{{site.keywords | join: ','}}">
+        {% endif %}
+        {% if page.date %}
+        <meta name="pubdate" content="{{page.date | date: '%Y%m%d'}}">
+        {% endif %}
+        <meta name="robots" content="{{page.index}}INDEX,{{page.follow}}FOLLOW">
+        <meta name="author" content="hakatashi">
         <meta name="viewport" content="width=device-width">
+        <title>{{ page.title }} - {{ site.name }}</title>
 
         <!--[if lt IE 9]>
         <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -21,11 +36,15 @@
           ga('send', 'pageview');
         </script>
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+
+        <link title="{{ site.name }}" href="/feed.xml" rel="alternate" type="application/rss+xml">
 
     </head>
     <body>
@@ -46,8 +65,7 @@
             <div id="footer">
               <div id="author">
                 <p>
-                  hakatashi<br />
-                  hakatasiloving@gmail.com
+                Wrote by <a href="http://hakatashi.com">hakatashi</a> &lt;hakatasiloving@gmail.com&gt;
                 </p>
               </div>
               <div id="contact">
@@ -66,9 +84,19 @@
                   this work to the extent possible under law.
                 </p>
               </div>
+              <div id="powered">
+                <p>
+                  Powered by <a href="https://www.ruby-lang.org/">Ruby</a>,
+                  <a href="http://jekyllrb.com/">Jekyll</a>,
+                  <a href="http://kramdown.gettalong.org/">kramdown</a>, and
+                  hosted by <a href="http://pages.github.com/">GitHub Pages</a>.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+
+        <script src="/js/concept.js"></script>
 
     </body>
 </html>
