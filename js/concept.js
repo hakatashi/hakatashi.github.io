@@ -585,7 +585,7 @@ var lines = [
 ];
 
 $('.title-wrapper').each(function(index) {
-  var titleWidth = $(this).children('.post-title').children('.post-title-inner').width();
+  var titleWidth = $(this).find('.post-title-inner').width();
   console.log(titleWidth);
   var possible = [];
   lines.forEach(function(line) {
