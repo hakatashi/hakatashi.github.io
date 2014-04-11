@@ -3,7 +3,7 @@ layout: post
 title: HTML中でのtbodyの扱い
 categories: HTML
 ---
-テスト投稿なので本当にどうでもいい話ですが。
+テスト投稿なので本当にどうでもいい話ですが、ちょっとあれっと思ったので。
 
 <!-- more -->
 
