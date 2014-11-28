@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font-family: Arial, Helvetica, 'Meiryo', 'ƒƒCƒŠƒI', 'ƒqƒ‰ƒMƒmŠpƒS Pro','Hiragino Kaku Gothic Pro', 'ƒqƒ‰ƒMƒmŠpƒS ProN','Hiragino Kaku Gothic ProN', 'ŸàƒSƒVƒbƒN‘Ì', 'YuGothic', 'ŸàƒSƒVƒbƒN', 'Yu Gothic', 'IPAƒSƒVƒbƒN', 'IPAGothic', serif;
+  font-family: Arial, Helvetica, 'Meiryo', 'ãƒ¡ã‚¤ãƒªã‚ª', 'ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro','Hiragino Kaku Gothic Pro', 'ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ ProN','Hiragino Kaku Gothic ProN', 'æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“', 'YuGothic', 'æ¸¸ã‚´ã‚·ãƒƒã‚¯', 'Yu Gothic', 'IPAã‚´ã‚·ãƒƒã‚¯', 'IPAGothic', sans-serif;
   font-size: 20px;
   color: #444;
 }
@@ -42,7 +42,7 @@ a {
   right: 20px;
   bottom: 20px;
 
-  font-family: 'Times New Roman', Times, 'Ÿà–¾’©‘Ì', 'YuMincho', 'Ÿà–¾’©', 'Yu Mincho', 'ƒqƒ‰ƒMƒm–¾’© Pro', 'Hiragino Mincho Pro', 'ƒqƒ‰ƒMƒm–¾’© ProN', 'Hiragino Mincho ProN', 'IPA–¾’©', 'IPAMincho', 'Meiryo', 'ƒƒCƒŠƒI', serif;
+  font-family: 'Times New Roman', Times, 'æ¸¸æ˜æœä½“', 'YuMincho', 'æ¸¸æ˜æœ', 'Yu Mincho', 'ãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro', 'Hiragino Mincho Pro', 'ãƒ’ãƒ©ã‚®ãƒæ˜æœ ProN', 'Hiragino Mincho ProN', 'IPAæ˜æœ', 'IPAMincho', 'Meiryo', 'ãƒ¡ã‚¤ãƒªã‚ª', serif;
   font-weight: normal;
   color: white;
 
